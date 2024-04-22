@@ -9,9 +9,13 @@
   "author": "E.T.2JZ",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "e": "^0.2.33",
+    "json": "^11.0.0",
     "morgan": "^1.10.0",
     "pg": "^8.11.5",
-    "postgres": "^3.4.4"
+    "postgres": "^3.4.4",
+    "token": "^0.1.0",
+    "web": "^0.0.2"
   }
 }
