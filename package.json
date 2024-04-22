@@ -1,20 +1,29 @@
 {
   "name": "robot_table",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "RoboQuest: Mechanical Mastery User table username password Robot table name color userId create 3 users with 3 robots per user (may use Faker if you’d like)",
+  "main": "server.js",
   "scripts": {
+    "build": "npm install && cd client && npm run build",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "seed": "node ./db/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "E.T.2JZ",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "e": "^0.2.33",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "json": "^11.0.0",
     "morgan": "^1.10.0",
+    "node": "^18.20.2",
+    "nodemon": "^3.1.0",
     "pg": "^8.11.5",
     "postgres": "^3.4.4",
+    "react": "^18.2.0",
     "token": "^0.1.0",
     "web": "^0.0.2"
   }

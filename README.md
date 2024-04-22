@@ -1,5 +1,15 @@
 # Basic outline for Robot Table workshop 
 
+RoboQuest: Mechanical Mastery
+User table
+username
+password
+Robot table
+name
+color
+userId
+create 3 users with 3 robots per user (may use Faker if you’d like)
+
 
 # Database
 userTable 
