@@ -12,7 +12,7 @@ const dropTables = async () => {
   } catch (error) {
     return (err);
   }
-}
+};
 
 const createTables = async () => {
   try {
@@ -26,7 +26,7 @@ const createTables = async () => {
   }catch (error) {
     return (err);
   }
-}
+};
 
 const createUserName = async () =>{
   try{
@@ -34,7 +34,7 @@ const createUserName = async () =>{
   }catch(error){
     return (err);
   }
-}
+};
 
 const createUserId = async () => {
   try{
@@ -42,7 +42,7 @@ const createUserId = async () => {
   }catch(error){
     return(err);
   }
-}
+};
 
 const createUserColor = async () => {
   try{
@@ -50,7 +50,7 @@ const createUserColor = async () => {
   }catch(error){
     return(err);
   }
-}
+};
 
 const rebuildDB = async () => {
   try {
@@ -66,4 +66,6 @@ const rebuildDB = async () => {
   }catch(error){
     console.log("Error during rebuildDB");
   }return (err);
-}
+};
+
+rebuildDB();
