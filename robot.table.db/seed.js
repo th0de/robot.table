@@ -27,3 +27,43 @@ const createTables = async () => {
     return (err);
   }
 }
+
+const createUserName = async () =>{
+  try{
+
+  }catch(error){
+    return (err);
+  }
+}
+
+const createUserId = async () => {
+  try{
+
+  }catch(error){
+    return(err);
+  }
+}
+
+const createUserColor = async () => {
+  try{
+
+  }catch(error){
+    return(err);
+  }
+}
+
+const rebuildDB = async () => {
+  try {
+    client.connect();
+
+    await dropTables();
+    await createTables();
+    await createUserId();
+    await createUserName();
+    await createUserColor();
+
+    client.end();
+  }catch(error){
+    console.log("Error during rebuildDB");
+  }return (err);
+}
