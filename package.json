@@ -1,0 +1,17 @@
+{
+  "name": "robot_table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "E.T.2JZ",
+  "license": "ISC",
+  "dependencies": {
+    "e": "^0.2.33",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5",
+    "postgres": "^3.4.4"
+  }
+}
